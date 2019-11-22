@@ -28,3 +28,22 @@ plt.ylabel("CO2 concentration / ppm")
 plt.plot(x,y,'b--',x,z,'r')
 plt.savefig("my_plot.pdf")
 
+#Drawing 3 graphs side by side on a single page
+
+#Using "subplot function to select plots" below is wrong, look at booklet
+
+p1 = plt.subplot(1, 3, 1)
+
+p1.plot(range(0,10,1))
+
+p2 = plt.subplot(1, 3, 2)
+
+p2.plot(range(10,0,-1) 
+
+p3 = plt.subplot(1, 3, 3)
+
+p3.plt([4]*10)
+
+plt.show()
+
+
